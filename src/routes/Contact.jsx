@@ -1,5 +1,4 @@
 import React, {useRef} from 'react'
-import Solnergy from '../assets/images/solnergy png.png'
 import { Link } from 'react-router-dom'
 import ContactForm from '../components/ContactForm'
 import '../styles/contact.css'
@@ -19,7 +18,7 @@ const Contact = () => {
     <div>
       <div className='main-page'>
        <div className="header">
-              <div className="logo"><img src={Solnergy} width={118.5}></img></div>
+              <div className="logo"><img src="src\assets\images\Solnergy png.png" width={118.5}></img></div>
 
              <button class="hamburger" ref={menuBtn}onClick={handleMenuClick}>
                                         <div class="bar"></div>
