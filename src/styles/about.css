@@ -1,0 +1,257 @@
+body{
+    overflow-x: hidden;
+}
+
+.word-about{
+    font-size: 3.5rem;
+    margin-top: 15rem;
+    display: block;
+    text-align: center;
+    padding:0 2rem;
+}
+
+.about-note{
+    width: 50%;
+    padding: 0 6rem;
+    font-size: .9rem;
+    color: var(--SLATE-GREEN);
+    line-height: 2rem;
+}
+
+
+.paragraph{
+    margin-bottom: 1.5rem;
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.values-container{
+    display: flex;
+    padding: 0 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.each-value{
+    text-align: left;
+    border: 2.5px solid #e8e9eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 7rem;
+    width: 80%;
+    margin: 2rem 0;
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.card .img img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba(28, 48, 46, .65);
+}
+
+.card .img{
+    background-color: rgba(28, 48, 46, .65);
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+}
+
+.wrapper{
+    max-width: 1100px;
+    width: 70%;
+    padding:2rem 35px;
+    position: relative;
+    position: relative;
+    padding-left: 0;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.carousel .card{
+    scroll-snap-align: start;
+    list-style: none;
+    background: #e8e9eb;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.carousel:where(.card, .img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.card h2{
+    font-weight: 500;
+    font-size: 1.56rem;
+    color: var(--SLATE-GREEN);
+    margin: 30px 0 5px;
+}
+
+.card span{
+    color: var(--SLATE-GREEN);
+    font-size: .8rem;
+    opacity: .8;
+}
+
+.wrapper i{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background: var(--SLATE-GREEN);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .23);
+    font-size: 1.25rem;
+}
+
+.wrapper i:first-child{
+    left: 0px;
+}
+
+.wrapper i:last-child{
+    right: 0px;
+}
+
+@media screen and (max-width:900px){
+    .wrapper .carousel{
+        grid-auto-columns: calc((100% / 2) - 9px);   
+    }
+}
+
+@media screen and (max-width:600px){
+    .wrapper .carousel{
+        grid-auto-columns: 100%;   
+    }
+}
+
+.dragging{ 
+    cursor: grab;
+    user-select: none;
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+}
+
+@media all and (orientation:portrait){
+    .nav{
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width:980px){
+    .about-note{
+        text-align: center;
+        width:100vw;
+        line-height: 1rem;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+    .paragraph{
+        font-size: .8rem;
+        animation: appear3 linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 40%;
+    }
+
+    .about-note-title{
+        text-align: center;
+    }
+}
+
+@media all and (max-width:1195px){
+    .values-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .each-value{
+        width: 80vw;
+    }
+
+    .values-title{
+        text-align: center;
+    }
+}
+
+@media all and (max-width:568px){
+    .about-note-title{
+        padding: 2.5rem 4rem;
+    }
+}
+
+@media all and (max-width:504px){
+    .about-note-title{
+        padding: 2.5rem 2rem;
+    }
+}
+
+@media all and (max-width:444px){
+    .about-note-title{
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media all and (max-width:406px){
+    .about-note-title{
+        padding: 2.5rem 0rem;
+    }
+}
+
+@media all and (max-width:380px){
+    .about-note-title{
+        padding: 2.5rem -2rem;
+    }
+}
+
+@media all and (max-width:340px){
+    .team-title{
+        padding: 0 2rem;
+    }
+}
+

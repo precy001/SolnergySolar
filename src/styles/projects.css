@@ -1,0 +1,140 @@
+.first-project-card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../assets/images/solar-installation-project.jpg);
+    background-size: cover;
+    height: 15rem;
+    border-radius: 5px;
+    transition: 1s ease;
+    width: 80%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.second-project-card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../assets/images/solar-maintenence.jpg);
+    background-size: cover;
+    height: 15rem;
+    border-radius: 5px;
+    transition: 1s ease;
+    width: 80%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.fourth-project-card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../assets/images/cables.jpg);
+    background-size: cover;
+    height: 15rem;
+    border-radius: 5px;
+    transition: 1s ease;
+    width: 80%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.projects-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.project-title{
+    color: white;
+    padding:2rem 1.5rem; 
+    padding-bottom: .5rem;
+}
+
+.project-detail{
+    color: white;
+    padding:2rem 1.5rem;
+    font-size: .7rem;
+    line-height: 1.2rem;
+    opacity: .8;
+}
+
+.statistics{
+    border: 1.9px solid var(--SLATE-GREEN);
+    border-radius: 8px;
+    width: 70%;
+    padding: 4rem;
+    margin: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.overall-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 6rem;
+}
+
+.featured-projects-note{
+    width: 50%;
+    padding: 0 6rem;
+    font-size: .9rem;
+    color: var(--SLATE-GREEN);
+    line-height: 2rem;
+}
+
+.number{
+    font-size: 6rem;
+    color: var(--SLATE-GREEN);
+}
+.stats{
+    color: var(--SLATE-GREEN);
+    opacity: .8;
+}
+
+/*Media queries*/
+
+@media all and (max-width:980px){
+    .projects-card-container{
+        flex-direction: column;
+    }
+
+    .first-project-card, .second-project-card, .fourth-project-card{
+        margin-top: 2rem;
+        width: 80vw;
+    }
+
+    .featured-projects-title, .featured-projects-note{
+        text-align: center;
+    }
+
+    .featured-projects-note{
+        padding: 0;
+        width: 100vw;
+    }
+
+    .overall-container{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .statistics-container{
+        margin-top: 2rem;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+    }
+
+    .statistics{
+        margin: 0;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        width: 80vw;
+    }
+}
+
+@media all and (max-width:322px){
+    .featured-projects-title{
+        padding: 2.5rem 1   rem;
+    }
+}

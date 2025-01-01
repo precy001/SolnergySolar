@@ -1,0 +1,105 @@
+.name-input{
+    background-color: transparent;
+    border: 1px solid var(--SLATE-GREEN);
+    height: 2rem;
+    width: 40%;
+    outline: none;
+    border-radius: 3px;
+}
+
+.message-input{
+    overflow-y: auto;
+    resize: vertical;
+    vertical-align: top;
+    background-color: transparent;
+    border: 1px solid var(--SLATE-GREEN);
+    padding: 15px 15px;
+    width: 39.5%;
+    outline: none;
+    border-radius: 3px;
+    padding-right: 0;
+}
+
+input::placeholder{
+    font-family:'Lato';
+}
+
+.form{
+    padding: 2rem 6rem;
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.label{
+    margin-bottom: .5rem;
+    color: var(--SLATE-GREEN);
+}
+
+.form input{
+    margin-bottom: 3rem;
+    text-indent: .6rem;
+}
+
+.submit-btn{
+    color: white;
+    background-color: var(--SLATE-GREEN);
+    border: 1px solid var(--SLATE-GREEN);
+    height: 2.4rem;
+    width: 41%;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.map{
+    width: 80vw;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.map iframe{
+    width: 80vw;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.error{
+    margin-top: 0;
+    margin: 1rem 0;
+    font-size: .7em;
+    color: rgb(201, 8, 8);
+}
+
+@media all and (orientation:portrait){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name-input{
+        width: 80vw;
+    }
+
+    .submit-btn{
+        width: 81vw;
+    }
+
+    .message-input{
+        width: 79vw;
+    }
+
+    .contact-tit{
+        text-align: center;
+    }
+}
+
+@media all and (max-width:467px){
+    .contact-tit{
+        padding: 2.5rem 1rem;
+    }
+}
