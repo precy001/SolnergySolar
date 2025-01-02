@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import x from '../assets/icons/x.png'
+import instagram from '../assets/icons/instagram.png'
+import linkedin from '../assets/icons/linkedin.png'
+import facebook from '../assets/icons/facebook.png'
 
 const Footer = () => {
   return (
@@ -39,10 +43,10 @@ const Footer = () => {
         <div className="left-float">&copy; {new Date().getFullYear()} Solnergy. All rights reserved</div>
 
         <div className="socials">
-            <a href=""><div className="social-icon"><img src='src\assets\icons\x.png' /></div></a>
-            <a href=""><div className="social-icon"><img src='src\assets\icons\instagram.png' /></div></a>
-            <a href=""><div className="social-icon"><img src='src\assets\icons\linkedin.png' /></div></a>
-            <a href=""><div className="social-icon"><img src='src\assets\icons\facebook.png' /></div></a>
+            <a href=""><div className="social-icon"><img src={x} /></div></a>
+            <a href=""><div className="social-icon"><img src={instagram} /></div></a>
+            <a href=""><div className="social-icon"><img src={linkedin} /></div></a>
+            <a href=""><div className="social-icon"><img src={facebook} /></div></a>
         </div>
         </div>
     </div>
