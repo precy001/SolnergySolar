@@ -4,6 +4,7 @@ import x from '../assets/icons/x.png'
 import instagram from '../assets/icons/instagram.png'
 import linkedin from '../assets/icons/linkedin.png'
 import facebook from '../assets/icons/facebook.png'
+import Solnergy from '../assets/images/Solnergy png.png'
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
 
         <div className="contains">
         <div className="logo">
-            <img src="src\assets\images\Solnergy png.png" alt="" width={118.5}/>
+            <img src={Solnergy} alt="" width={118.5}/>
         </div>
 
         <div className="small-note">
