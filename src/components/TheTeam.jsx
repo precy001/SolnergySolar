@@ -1,6 +1,7 @@
 import React, {useRef, useState, useEffect} from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Link } from 'react-router-dom'
+import noProfile from '../assets/images/noprofile.jpeg'
 
 const TheTeam = () => {
 
@@ -58,7 +59,7 @@ const buttonclick = (button) => {
             >
                 <li className="card" ref={firstCard}>
                     <div className="img">
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>John Doe</h2>
                     <span>CEO/Founder</span>
@@ -66,7 +67,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img" >
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Dorothy</h2>
                     <span>Project Manager</span>
@@ -74,7 +75,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img" >
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Deborah</h2>
                     <span>Solar Engineer</span>
@@ -82,7 +83,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img" >
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Joseph</h2>
                     <span>Electrician</span>
@@ -90,7 +91,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img">
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Timileyin</h2>
                     <span>Solar Installer</span>
@@ -98,7 +99,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img" >
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Esther</h2>
                     <span>Sales Representative</span>
@@ -106,7 +107,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img" >
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Dele</h2>
                     <span>Customer Support Representative</span>
@@ -114,7 +115,7 @@ const buttonclick = (button) => {
 
                 <li className="card">
                     <div className="img" >
-                        <img src="src\assets\images\noprofile.jpeg" alt="" draggable={false}/>
+                        <img src={noProfile} alt="" draggable={false}/>
                     </div>
                     <h2>Demola</h2>
                     <span>Finance Specialist</span>
