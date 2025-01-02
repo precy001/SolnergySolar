@@ -25,7 +25,7 @@ const Header = (props) => {
           </div>
 
           <div className="explore-btn">
-            <Link className='explore' to='/products'>Explore our Solutions</Link>
+            <Link className='explore' to='/projects'>Explore our Solutions</Link>
           </div> 
 
           <div className="mobile-explore-btn">
