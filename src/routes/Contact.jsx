@@ -25,7 +25,7 @@ const Contact = () => {
                                         <div class="bar"></div>
                                     </button>
                                     <div class="mobile-nav" ref={mobileMenu}>
-                                        <button><a href="">Home</a></button>
+                                        <button><Link to='/'></Link> Home</button>
                                         <button><Link to='/about'>About</Link></button>
                                         <button><Link to='/projects'>Projects</Link></button>
                                         <button><Link to='/contact'>Contact Us</Link></button>
