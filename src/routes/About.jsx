@@ -5,6 +5,9 @@ import Values from '../components/Values'
 import '../styles/about.css'
 import Footer from '../components/Footer'
 import TheTeam from '../components/TheTeam'
+import sustainability from '../assets/icons/sustainability.png'
+import innovation from '../assets/icons/innovation.png'
+import customerCare from '../assets/icons/customer-care.png'
 
 
 const About = () => {
@@ -68,11 +71,11 @@ const About = () => {
       </div>
 
       <div className="values-container">
-        <Values icon="src\assets\icons\sustainability.png" text=" We are committed to promoting renewable energy to reduce environmental impact and create a cleaner, greener future." head="Sustainability"/>
+        <Values icon={sustainability} text=" We are committed to promoting renewable energy to reduce environmental impact and create a cleaner, greener future." head="Sustainability"/>
 
-        <Values icon="src\assets\icons\innovation.png" text="Continuously improving solar technology and solutions to provide efficient, cost-effective, and cutting-edge energy systems." head="Innovation"/>
+        <Values icon={innovation} text="Continuously improving solar technology and solutions to provide efficient, cost-effective, and cutting-edge energy systems." head="Innovation"/>
 
-        <Values icon="src\assets\icons\customer-care.png" text=" We prioritize customer needs by delivering tailored solar solutions, exceptional service, and long-term value." head="Customer Care"/>
+        <Values icon={customerCare} text=" We prioritize customer needs by delivering tailored solar solutions, exceptional service, and long-term value." head="Customer Care"/>
       </div>
     </div>
 
