@@ -1,0 +1,108 @@
+diff --git a/index.html b/index.html
+index f88101b..2c2072a 100644
+--- a/index.html
++++ b/index.html
+@@ -4,7 +4,7 @@
+     <meta charset="UTF-8" />
+     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-    <title>Solnergy | Home</title>
++    <title>TDV Global | Home</title>
+   </head>
+   <body>
+     <div id="root"></div>
+diff --git a/package-lock.json b/package-lock.json
+index 03ca948..6744645 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -1,11 +1,11 @@
+ {
+-  "name": "solnergysolar",
++  "name": "tdvglobal",
+   "version": "0.0.0",
+   "lockfileVersion": 3,
+   "requires": true,
+   "packages": {
+     "": {
+-      "name": "solnergysolar",
++      "name": "tdvglobal",
+       "version": "0.0.0",
+       "dependencies": {
+         "@fortawesome/fontawesome-free": "^6.7.2",
+diff --git a/package.json b/package.json
+index 703f1a9..c4f77be 100644
+--- a/package.json
++++ b/package.json
+@@ -1,5 +1,5 @@
+ {
+-  "name": "solnergysolar",
++  "name": "tdvglobal",
+   "private": true,
+   "version": "0.0.0",
+   "type": "module",
+diff --git a/src/components/Footer.jsx b/src/components/Footer.jsx
+index ef37bec..6792624 100644
+--- a/src/components/Footer.jsx
++++ b/src/components/Footer.jsx
+@@ -41,7 +41,7 @@ const Footer = () => {
+         <hr className='rule'/>
+ 
+         <div className="down">
+-        <div className="left-float">&copy; {new Date().getFullYear()} Solnergy. All rights reserved</div>
++        <div className="left-float">&copy; {new Date().getFullYear()} TDV Global. All rights reserved</div>
+ 
+         <div className="socials">
+             <a href=""><div className="social-icon"><img src={x} /></div></a>
+diff --git a/src/routes/About.jsx b/src/routes/About.jsx
+index 4b412d1..e13c318 100644
+--- a/src/routes/About.jsx
++++ b/src/routes/About.jsx
+@@ -45,7 +45,7 @@ const About = () => {
+           </div>
+           <div className="word-about">
+           About us
+-          <div className='small'>Solnergy inc.</div>
++          <div className='small'>TDV Global inc.</div>
+           </div>
+     </div>
+ 
+@@ -53,11 +53,11 @@ const About = () => {
+       <div className="title about-note-title">Providing a Sustainable<br /> Future</div>
+       <div className="about-note">
+       <div className="paragraph">
+-      Solnergy is a trusted provider of solar energy solutions, specializing in the design, installation, and maintenance of efficient solar systems for homes, businesses, and industries. Our goal is to help clients reduce energy costs and environmental impact through reliable, sustainable solar technology
++      TDV Global is a trusted provider of solar energy solutions, specializing in the design, installation, and maintenance of efficient solar systems for homes, businesses, and industries. Our goal is to help clients reduce energy costs and environmental impact through reliable, sustainable solar technology
+       </div>
+ 
+       <div className="paragraph">
+-      At Solnergy, our focus is on making clean, renewable energy accessible to all, driving a greener future while providing cost-effective solutions that empower communities and businesses to thrive.
++      At TDV Global, our focus is on making clean, renewable energy accessible to all, driving a greener future while providing cost-effective solutions that empower communities and businesses to thrive.
+       </div>
+ 
+      <div className="paragraph">We are committed to delivering innovative solar energy solutions that promote sustainability and empower communities. With expertise in renewable energy and local markets, we provide reliable, eco-friendly power tailored to the needs of homes and businesses.
+diff --git a/src/routes/Contact.jsx b/src/routes/Contact.jsx
+index 5d5274c..ca5bafe 100644
+--- a/src/routes/Contact.jsx
++++ b/src/routes/Contact.jsx
+@@ -40,7 +40,7 @@ const Contact = () => {
+           </div>
+           <div className="word-about">
+           Contact us
+-          <div className='small'>Solnergy inc.</div>
++          <div className='small'>TDV Global inc.</div>
+           </div>
+     </div>
+ 
+diff --git a/src/routes/Projects.jsx b/src/routes/Projects.jsx
+index 31b45a8..bafd6a8 100644
+--- a/src/routes/Projects.jsx
++++ b/src/routes/Projects.jsx
+@@ -41,7 +41,7 @@ const Projects = () => {
+           </div>
+           <div className="word-about">
+          Our Projects
+-          <div className='small'>Solnergy inc.</div>
++          <div className='small'>TDV Global inc.</div>
+           </div>
+     </div>
+ 

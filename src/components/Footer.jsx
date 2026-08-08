@@ -41,7 +41,7 @@ const Footer = () => {
         <hr className='rule'/>
 
         <div className="down">
-        <div className="left-float">&copy; {new Date().getFullYear()} Solnergy. All rights reserved</div>
+        <div className="left-float">&copy; {new Date().getFullYear()} TDV Global. All rights reserved</div>
 
         <div className="socials">
             <a href=""><div className="social-icon"><img src={x} /></div></a>

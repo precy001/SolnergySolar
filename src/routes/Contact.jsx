@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
           <div className="word-about">
           Contact us
-          <div className='small'>Solnergy inc.</div>
+          <div className='small'>TDV Global inc.</div>
           </div>
     </div>
 

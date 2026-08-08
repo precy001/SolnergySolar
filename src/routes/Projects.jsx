@@ -41,7 +41,7 @@ const Projects = () => {
           </div>
           <div className="word-about">
          Our Projects
-          <div className='small'>Solnergy inc.</div>
+          <div className='small'>TDV Global inc.</div>
           </div>
     </div>
 

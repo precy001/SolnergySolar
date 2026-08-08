@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="word-about">
           About us
-          <div className='small'>Solnergy inc.</div>
+          <div className='small'>TDV Global inc.</div>
           </div>
     </div>
 
@@ -53,11 +53,11 @@ const About = () => {
       <div className="title about-note-title">Providing a Sustainable<br /> Future</div>
       <div className="about-note">
       <div className="paragraph">
-      Solnergy is a trusted provider of solar energy solutions, specializing in the design, installation, and maintenance of efficient solar systems for homes, businesses, and industries. Our goal is to help clients reduce energy costs and environmental impact through reliable, sustainable solar technology
+      TDV Global is a trusted provider of solar energy solutions, specializing in the design, installation, and maintenance of efficient solar systems for homes, businesses, and industries. Our goal is to help clients reduce energy costs and environmental impact through reliable, sustainable solar technology
       </div>
 
       <div className="paragraph">
-      At Solnergy, our focus is on making clean, renewable energy accessible to all, driving a greener future while providing cost-effective solutions that empower communities and businesses to thrive.
+      At TDV Global, our focus is on making clean, renewable energy accessible to all, driving a greener future while providing cost-effective solutions that empower communities and businesses to thrive.
       </div>
 
      <div className="paragraph">We are committed to delivering innovative solar energy solutions that promote sustainability and empower communities. With expertise in renewable energy and local markets, we provide reliable, eco-friendly power tailored to the needs of homes and businesses.
