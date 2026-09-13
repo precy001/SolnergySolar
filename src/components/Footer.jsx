@@ -4,7 +4,6 @@ import x from '../assets/icons/x.png'
 import instagram from '../assets/icons/instagram.png'
 import linkedin from '../assets/icons/linkedin.png'
 import facebook from '../assets/icons/facebook.png'
-import Solnergy from '../assets/images/Solnergy png.png'
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
 
         <div className="contains">
         <div className="logo">
-            <img src={Solnergy} alt="" width={118.5}/>
+            <img src="/assets/IMG_0830.png" alt="TDV Global logo" />
         </div>
 
         <div className="small-note">
@@ -24,6 +23,7 @@ const Footer = () => {
             <div className="quick-links">
               <li><Link to="/" className=''>Home</Link></li>
               <li><Link to='/about' className=''>About</Link></li>
+              <li><Link to='/products' className=''>Products</Link></li>
               <li><Link to='/projects' className=''>Projects</Link></li>
               <li><Link to='/contact' className=''>Contact Us</Link></li>
             </div>
@@ -31,10 +31,12 @@ const Footer = () => {
 
         <div className="contact-section">
             <div className="top">Connect with us</div>
+            {/* TODO: confirm this is TDV Global's real business address before launch */}
             <div className="address">
                 No 10, Unity crescent, Ikorodu, Lagos.
             </div>
-            <div className="mail">info@solnergy.com</div>
+            {/* TODO: replace with TDV Global's real enquiry email once confirmed */}
+            <div className="mail">info@tdvglobal.com</div>
         </div>
         </div>
 

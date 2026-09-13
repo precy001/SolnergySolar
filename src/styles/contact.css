@@ -73,6 +73,16 @@ input::placeholder{
     color: rgb(201, 8, 8);
 }
 
+.contact-intro{
+    width: 50%;
+    padding: 0 6rem;
+    margin-top: -1rem;
+    font-size: .9rem;
+    color: var(--SLATE-GREEN);
+    opacity: .85;
+    line-height: 1.8rem;
+}
+
 @media all and (orientation:portrait){
     .form{
         display: flex;
@@ -95,6 +105,13 @@ input::placeholder{
 
     .contact-tit{
         text-align: center;
+    }
+
+    .contact-intro{
+        text-align: center;
+        width: 100vw;
+        padding: 0 2rem;
+        margin-top: 0;
     }
 }
 

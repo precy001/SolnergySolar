@@ -96,6 +96,14 @@ body{
     clear: both;
 }
 
+.hero-subtext{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: .85;
+    margin-top: 1.2rem;
+    line-height: 1.6rem;
+}
+
 .word span::before{
     content: '';
     position: absolute;
@@ -176,8 +184,8 @@ body{
 .logo{
     float: left;
     display: inline;
-    width: 237px;
-    height: 75.7px;
+    width: 90px;
+    height: 82px;
 }
 
 .nav{
@@ -458,7 +466,7 @@ body{
   
 
   .logo img {
-    width: 118.5px; 
+    width: 70px; 
     height: auto;
   }
   
@@ -533,7 +541,7 @@ body{
     }
   
     .logo img {
-      width: 100px; 
+      width: 56px; 
     }
   }
   
@@ -753,6 +761,10 @@ body{
         width: 80%;
         float: none;
         font-size: 2.5rem;
+    }
+
+    .hero-subtext{
+        font-size: .85rem;
     }
 
     .head-text{

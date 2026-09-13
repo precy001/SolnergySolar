@@ -1,6 +1,5 @@
 import React, {useRef} from 'react'
 import { Link } from 'react-router-dom'
-import Solnergy from '../assets/images/Solnergy png.png'
 import Values from '../components/Values'
 import '../styles/about.css'
 import Footer from '../components/Footer'
@@ -24,7 +23,7 @@ const About = () => {
     <div>
        <div className='main-page'>
        <div className="header">
-              <div className="logo"><img src={Solnergy} width={118.5}></img></div>
+              <div className="logo"><img src="/assets/IMG_0830.png" alt="TDV Global logo" /></div>
 
                  <button class="hamburger" ref={menuBtn}onClick={handleMenuClick}>
                             <div class="bar"></div>
@@ -32,6 +31,7 @@ const About = () => {
                         <div class="mobile-nav" ref={mobileMenu}>
                             <button><Link to="/">Home</Link></button>
                             <button><Link to='/about'>About</Link></button>
+                            <button><Link to='/products'>Products</Link></button>
                             <button><Link to='/projects'>Projects</Link></button>
                             <button><Link to='/contact'>Contact Us</Link></button>
                         </div>
@@ -39,6 +39,7 @@ const About = () => {
               <div className="nav">
               <li><Link to="/" className='link'>Home</Link></li>
               <li><Link to='/about' className='link active'>About</Link></li>
+              <li><Link to='/products' className='link'>Products</Link></li>
               <li><Link to='/projects' className='link'>Projects</Link></li>
               <li><Link to='/contact' className='link contact'>Contact Us</Link></li>
               </div> 
@@ -53,14 +54,19 @@ const About = () => {
       <div className="title about-note-title">Providing a Sustainable<br /> Future</div>
       <div className="about-note">
       <div className="paragraph">
-      TDV Global is a trusted provider of solar energy solutions, specializing in the design, installation, and maintenance of efficient solar systems for homes, businesses, and industries. Our goal is to help clients reduce energy costs and environmental impact through reliable, sustainable solar technology
+      TDV Global is a Nigerian energy company built around one simple idea. Power should be something you stop thinking about.
       </div>
 
       <div className="paragraph">
-      At TDV Global, our focus is on making clean, renewable energy accessible to all, driving a greener future while providing cost-effective solutions that empower communities and businesses to thrive.
+      We design, supply, install and maintain solar and inverter systems for homes, businesses and institutions. Our work covers everything from a modest home backup to full commercial installations, and every project starts the same way, by understanding what the customer actually needs rather than what is easiest to sell.
       </div>
 
-     <div className="paragraph">We are committed to delivering innovative solar energy solutions that promote sustainability and empower communities. With expertise in renewable energy and local markets, we provide reliable, eco-friendly power tailored to the needs of homes and businesses.
+     <div className="paragraph">
+     Too many people have paid good money for a system that never performed as promised. Undersized panels, batteries that failed within months, installers who stopped answering calls. We built this company to be the opposite of that experience. We size systems properly, we use equipment that carries genuine warranty cover, we install to standard, and we stay reachable long after the work is finished.
+     </div>
+
+     <div className="paragraph">
+     If you are considering solar, we are happy to talk it through with you, whether you buy from us or not.
      </div>
       </div>
     </div>
@@ -71,11 +77,11 @@ const About = () => {
       </div>
 
       <div className="values-container">
-        <Values icon={sustainability} text=" We are committed to promoting renewable energy to reduce environmental impact and create a cleaner, greener future." head="Sustainability"/>
+        <Values icon={sustainability} text="We design every system to make the most of clean, renewable energy, cutting reliance on the grid and on diesel." head="Sustainability"/>
 
-        <Values icon={innovation} text="Continuously improving solar technology and solutions to provide efficient, cost-effective, and cutting-edge energy systems." head="Innovation"/>
+        <Values icon={innovation} text="We stay on top of new equipment and techniques so the systems we build keep getting safer, more efficient and easier to maintain." head="Innovation"/>
 
-        <Values icon={customerCare} text=" We prioritize customer needs by delivering tailored solar solutions, exceptional service, and long-term value." head="Customer Care"/>
+        <Values icon={customerCare} text="We treat every enquiry the way we would want to be treated ourselves, with honest advice, fair pricing and support that does not disappear after installation." head="Customer Care"/>
       </div>
     </div>
 
