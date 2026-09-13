@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WHATSAPP_NUMBER = '2347084189742'
+const WHATSAPP_NUMBER = '2349167728428'
 
 const ProductCard = (props) => {
   const whatsappMessage = `Hi TDV global, I am making enquiries for the ${props.name}`

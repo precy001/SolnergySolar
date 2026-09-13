@@ -20,10 +20,10 @@ const Products = () => {
        <div className="header">
               <div className="logo"><img src="/assets/IMG_0830.png" alt="TDV Global logo" /></div>
 
-                 <button class="hamburger" ref={menuBtn}onClick={handleMenuClick}>
-                            <div class="bar"></div>
+                 <button className="hamburger" ref={menuBtn}onClick={handleMenuClick}>
+                            <div className="bar"></div>
                         </button>
-                        <div class="mobile-nav" ref={mobileMenu}>
+                        <div className="mobile-nav" ref={mobileMenu}>
                             <button><Link to="/">Home</Link></button>
                             <button><Link to='/about'>About</Link></button>
                             <button><Link to='/products'>Products</Link></button>
